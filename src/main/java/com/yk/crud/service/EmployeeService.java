@@ -19,7 +19,7 @@ public class EmployeeService {
 	 * 查询所有员工
 	 * @return
 	 */
-	public List<Employee> getAll(@RequestParam(value="pageNumber",defaultValue="1")Integer pageNumber) {
+	public List<Employee> getAll() {
 		return employeeMapper.selectByExampleWithDept(null);
 	}
 

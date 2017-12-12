@@ -7,6 +7,20 @@
   
   <dependencies>
   
+  	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+	<dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	    <version>2.8.8</version>
+	</dependency>
+  
+  	<!-- 引入pagehelper分页查询插件 -->
+	<dependency>
+	    <groupId>com.github.pagehelper</groupId>
+	    <artifactId>pagehelper</artifactId>
+	    <version>5.0.0</version>
+	</dependency>
+
   	<!-- 引入项目依赖的包 -->
   	<!-- MBG mybatis逆向工程 -->
   	<!-- https://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core -->
@@ -86,10 +100,11 @@
 	<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 	<dependency>
 	    <groupId>javax.servlet</groupId>
-	    <artifactId>servlet-api</artifactId>
-	    <version>2.5</version>
+	    <artifactId>javax.servlet-api</artifactId>
+	    <version>3.0.1</version>
 	    <scope>provided</scope>
 	</dependency>
+	
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
 	<dependency>
 	    <groupId>junit</groupId>
